@@ -6,3 +6,6 @@
 -importar o cors no arquivo e npm install (transmitir dados entre dominios)
 -importar o path no arquivo e npm install (rotas)
 -cria a pasta src/ com o routes.js
+
+-cria as rotas usando o express.router()
+-criar os get e posts
