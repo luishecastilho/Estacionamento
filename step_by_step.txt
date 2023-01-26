@@ -18,3 +18,8 @@
 -instalar dotenv (para por as variaveis de ambiente (url BD por exemplo))
 -cria a variavel no arquivo .env
 -chama dentro do server.js 'require("dotenv).config();' e dps a variavel com 'process.env.XXX'
+
+-cria a pasta model
+-ai cria um arquivo por collection
+-faz a criação da tabela no inicio do arquivo
+-

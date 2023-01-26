@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luishecastilho/Estacionamento.git"
+        "url": "git+https://github.com/luishecastilho/Parking-lot.git"
     },
     "author": "LHC Technology",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/luishecastilho/Estacionamento/issues"
+        "url": "https://github.com/luishecastilho/Parking-lot/issues"
     },
-    "homepage": "https://github.com/luishecastilho/Estacionamento#readme",
+    "homepage": "https://github.com/luishecastilho/Parking-lot#readme",
     "dependencies": {
         "cookie-parser": "^1.4.6",
         "cors": "^2.8.5",
