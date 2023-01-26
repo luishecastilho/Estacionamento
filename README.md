@@ -1,4 +1,6 @@
 # Parking lot
- Parking lot API
+ API to manage the vehicles and parking spots and also the payments.
 
-- Node.js (express) + MongoDB
+## Technologies:
+* Node.js
+* MongoDB
