@@ -22,4 +22,8 @@
 -cria a pasta model
 -ai cria um arquivo por collection
 -faz a criação da tabela no inicio do arquivo
--
+
+-cria a pasta controller
+-cria um arquivo pra cada model
+-no arquivo, chama o model -> exportar as funções criadas
+-arruma as rotas do server.js puxando os respectivos controllers
