@@ -1,2 +1,4 @@
-# Estacionamento
- API para Sistema de estacionamento
+# Parking lot
+ Parking lot API
+
+- Node.js (express) + MongoDB

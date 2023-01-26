@@ -1,0 +1,8 @@
+-npm init (criar o package.json)
+-npm install nodemon (ajuda para desenvolver)
+-adiciona mais um script em package.json ("start": "nodemon server.js")
+-importar o express no arquivo e npm install (roteamento)
+-importar o cookie-parser no arquivo e npm install (sessao e troca de dados)
+-importar o cors no arquivo e npm install (transmitir dados entre dominios)
+-importar o path no arquivo e npm install (rotas)
+-cria a pasta src/ com o routes.js
