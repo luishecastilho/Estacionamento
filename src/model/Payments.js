@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const DataSchema = new mongoose.Schema({
     vehicleId: String,
-    value: mongoose.Types.Decimal128,
+    value: String,
     datetime: String,
     method: String
 })

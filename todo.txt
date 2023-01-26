@@ -1,3 +1,5 @@
+-filtro payments
+
 -arrumar os model, colocando default
 
 -validador do 'req'

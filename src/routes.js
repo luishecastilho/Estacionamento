@@ -1,12 +1,12 @@
 const express = require('express');
+const OverallController = require('./controller/OverallController');
 const VehiclesController = require('./controller/VehiclesController');
 const PaymentsController = require('./controller/PaymentsController');
 
 const routes = express.Router()
 
-routes.get('/parking/overall', (req, res) => {
-    res.json({spaces: 10, vehicles: 8, freeSpaces: 2});
-});
+// Overall
+routes.get('/parking/overall', OverallController.index);
 
 // Vehicles
 routes.get('/parking/vehicles', VehiclesController.list);
@@ -18,6 +18,5 @@ routes.post('/parking/vehicles/out', VehiclesController.out);
 routes.get('/parking/payments', PaymentsController.list);
 routes.get('/parking/payments/filter', PaymentsController.listFiltered);
 routes.post('/parking/payments', PaymentsController.add);
-
 
 module.exports = routes;
