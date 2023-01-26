@@ -9,3 +9,12 @@
 
 -cria as rotas usando o express.router()
 -criar os get e posts
+-instala mongodb no PC
+-cria o database no mongodb
+-cria as collections (tabelas)
+-npm install mongoose (acessar BD e gerenciar)
+-importar mongoos no server.js
+-conecta no banco
+-instalar dotenv (para por as variaveis de ambiente (url BD por exemplo))
+-cria a variavel no arquivo .env
+-chama dentro do server.js 'require("dotenv).config();' e dps a variavel com 'process.env.XXX'
