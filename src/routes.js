@@ -11,6 +11,11 @@ routes.get('/parking/spaces', (req, res) => {
     res.json({spaces: 10, freeSpaces: 2, busySpaces: 8});
 });
 
-routes.get('/parking/vehicles', VehiclesController.index);
+// Vehicles
+routes.get('/parking/vehicles', VehiclesController.list);
+routes.get('/parking/vehicles/now', VehiclesController.listNow);
+routes.post('/parking/vehicles/in', VehiclesController.in);
+routes.put('/parking/vehicles/out', VehiclesController.out);
+
 
 module.exports = routes;
